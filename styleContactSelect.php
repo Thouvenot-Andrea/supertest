@@ -1,5 +1,10 @@
 <?php header("Content-type: text/css; charset=UTF-8"); ?>
-
+header{
+    font-size: 25PX;
+    display: flex;
+    justify-content: space-around;
+    background-color:greenyellow;
+}
 
 select,input,textarea{
     color :black;
@@ -65,12 +70,36 @@ form button {
 
 button:hover { background-color : lightskyblue;}
 
-.contact_main{
-    width: 700px;
+.contact{
+    width: 760px;
+    height: 850;
     background:slategray;
     border:1px solid black;
     border-radius: 8px;
     padding:0 50px 0 50px;
+
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:lightskyblue;
+    margin : 10 px;
+}
+
+
+
+
+
+.Titre_Contact {
+    text-align: center;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.contact_main{
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
 
