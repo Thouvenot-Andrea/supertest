@@ -20,32 +20,48 @@ form div{
 }
 
 #nom::placeholder{
-color: black;
-font-style: italic;
+    color: black;
+    font-style: italic;
 }
 
 #prénom::placeholder{
-color: black;
-font-style: italic;
+    color: black;
+    font-style: italic;
 }
 
 #email::placeholder{
-color: black;
-font-style: italic;
+    color: black;
+    font-style: italic;
 }
 
 form > div > p {
-color :black;
-background-color: darkgrey;
-border: none;
-border-radius:5px;
-font-size: 16px;
-font-family: 'Courier New', Courier, monospace;
-box-shadow: 0px 2px 2px 0px lightskyblue;
+    color :black;
+    background-color: darkgrey;
+    border: none;
+    border-radius:5px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0px 2px 2px 0px lightskyblue;
 }
 
 #message::placeholder{
-color: black;
-font-style: italic;
+    color: black;
+    font-style: italic;
 }
+
+
+
+form button {
+    max-width: 300px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    background: white;
+    border: black solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px black;
+    color: black;
+}
+
+button:hover { background-color : lightskyblue;}
 
