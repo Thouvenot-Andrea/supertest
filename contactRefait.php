@@ -43,6 +43,15 @@
                 Demande d'information : <input type="radio" name="raison_contact">
             </p>
         </div>
+        <!--  Champ pour le message-->
+        <div>
+
+            <div>
+                <label for="message">Votre message</label>
+                <br>
+                <textarea id="message" name="message"  placeholder="ex : Bonjour, je vous contacte car ..." ></textarea>
+            </div>
+        </div>
     </form>
 
 </main>
