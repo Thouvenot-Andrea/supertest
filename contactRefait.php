@@ -15,6 +15,10 @@
                 <option value="Vous êtes ni homme ni femme">Autres</option>
             </select>
         </div>
+        <div>
+            <label for="nom">Votre Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="ex : LEGRAND">
+        </div>
 
     </form>
 
