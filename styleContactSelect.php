@@ -65,3 +65,12 @@ form button {
 
 button:hover { background-color : lightskyblue;}
 
+.contact_main{
+    width: 700px;
+    background:slategray;
+    border:1px solid black;
+    border-radius: 8px;
+    padding:0 50px 0 50px;
+}
+
+
