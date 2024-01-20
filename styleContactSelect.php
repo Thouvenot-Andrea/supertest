@@ -23,10 +23,15 @@ form div{
 color: black;
 font-style: italic;
 }
+
 #prénom::placeholder{
 color: black;
 font-style: italic;
 }
 
+#email::placeholder{
+color: black;
+font-style: italic;
+}
 
 
