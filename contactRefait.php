@@ -4,7 +4,7 @@
 <?php //include ('header.php'); ?>
 <body>
 <main>
-    <form action="recupereInfoContact.php" method="post">
+    <form action="https://httpbin.org/post" method="post">
 <!--        Un champ civilité <select>, M. et Mme-->
         <div>
             <label for="civility">Quel est votre civilité ? </label>
@@ -51,6 +51,10 @@
                 <br>
                 <textarea id="message" name="message"  placeholder="ex : Bonjour, je vous contacte car ..." ></textarea>
             </div>
+        </div>
+        <!--  LE BOUTON  pour valider-->
+        <div>
+            <button type="submit">Envoyer mon message</button>
         </div>
     </form>
 
