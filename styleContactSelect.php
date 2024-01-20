@@ -1,7 +1,7 @@
 <?php header("Content-type: text/css; charset=UTF-8"); ?>
 
 
-select,input{
+select,input,textarea{
     color :black;
     background-color: darkgrey;
     border: none;
@@ -42,5 +42,10 @@ border-radius:5px;
 font-size: 16px;
 font-family: 'Courier New', Courier, monospace;
 box-shadow: 0px 2px 2px 0px lightskyblue;
+}
+
+#message::placeholder{
+color: black;
+font-style: italic;
 }
 
