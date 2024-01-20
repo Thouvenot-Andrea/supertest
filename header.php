@@ -2,7 +2,8 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <description> <?php echo $MetaDescription ?> </description>
-    <link rel="stylesheet" href="style.php" />
+    <link rel="stylesheet" href="styleContactSelect.php" />
+<!--    <link rel="stylesheet" href="style.php" />-->
     <title> <?php  echo $MetaTitle ?> </title>
 </head>
 <header>
