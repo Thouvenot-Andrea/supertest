@@ -19,7 +19,10 @@
             <label for="nom">Votre Nom</label>
             <input type="text" id="nom" name="nom" placeholder="ex : LEGRAND">
         </div>
-
+        <div>
+            <label for="prénom">Votre Prénom</label>
+            <input type="text" id="prénom" name="prénom" placeholder="ex : Jean">
+        </div>
     </form>
 
 </main>
