@@ -5,6 +5,10 @@ header{
     justify-content: space-around;
     background-color:greenyellow;
 }
+footer{
+    background-color:greenyellow;
+    text-align:center;
+}
 
 select,input,textarea{
     color :black;
@@ -14,8 +18,8 @@ select,input,textarea{
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
     box-shadow: 0px 2px 2px 0px lightskyblue;
-
 }
+
 form div{
     width: 100%;
     display: flex;
@@ -54,8 +58,6 @@ form > div > p {
     font-style: italic;
 }
 
-
-
 form button {
     max-width: 300px;
     height: 40px;
@@ -72,7 +74,7 @@ button:hover { background-color : lightskyblue;}
 
 .contact{
     width: 760px;
-    height: 850;
+    height: 880px;
     background:slategray;
     border:1px solid black;
     border-radius: 8px;
@@ -85,9 +87,9 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color:lightskyblue;
-    margin : 10 px;
+    margin-top: 0px;
+    margin-bottom : 0px
 }
-
 
 .raison_contact{
     color :black;
@@ -99,19 +101,13 @@ body {
     box-shadow: 0px 2px 2px 0px lightskyblue;
 }
 
-
-
-
-
-
-
 .Titre_Contact {
     text-align: center;
-margin-top: 0px;
-margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+
 .contact_main{
-    height: 1000px;
     display: flex;
     justify-content: space-around;
 }
