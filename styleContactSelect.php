@@ -74,7 +74,7 @@ button:hover { background-color : lightskyblue;}
 
 .contact{
     width: 760px;
-    height: 880px;
+
     background:slategray;
     border:1px solid black;
     border-radius: 8px;
