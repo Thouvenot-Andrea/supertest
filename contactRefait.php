@@ -22,23 +22,23 @@
 
 // Récupère tous les champs du formulaire de contact rempli et enregistre l'ensemble dans le fichier text
 
-//    // Chemin du fichier de contact avec un timestamp pour éviter les doublons
-//    $filename = '/var/www/supertest/contact'. date('Y-m-d-H-i-s') . '.txt';
-//
-//    // Nettoyage et écriture des données dans le fichier
-//
-//    // Ajout de la civilité
-//    file_put_contents($filename, "Civilité: " . $civility . PHP_EOL, FILE_APPEND);
-//    // Ajout du nom
-//    file_put_contents($filename, "Nom: " . $nom . PHP_EOL, FILE_APPEND);
-//    // Ajout du prénom
-//    file_put_contents($filename, "Prénom: " . $firstName . PHP_EOL, FILE_APPEND);
-//    // Ajout de l'email
-//    file_put_contents($filename, "Email: " . $email . PHP_EOL, FILE_APPEND);
-//    // Ajout de la raison de contact
-//    file_put_contents($filename, "Raison de contact: " . $raisonContact . PHP_EOL, FILE_APPEND);
-//    // Ajout du message
-//    file_put_contents($filename, "Message: " . $message . PHP_EOL, FILE_APPEND);
+    // Chemin du fichier de contact avec un timestamp pour éviter les doublons
+    $filename = '/var/www/supertest/contact'. date('Y-m-d-H-i-s') . '.txt';
+
+    // Nettoyage et écriture des données dans le fichier
+
+    // Ajout de la civilité
+    file_put_contents($filename, "Civilité: " . $civility . PHP_EOL, FILE_APPEND);
+    // Ajout du nom
+    file_put_contents($filename, "Nom: " . $nom . PHP_EOL, FILE_APPEND);
+    // Ajout du prénom
+    file_put_contents($filename, "Prénom: " . $firstName . PHP_EOL, FILE_APPEND);
+    // Ajout de l'email
+    file_put_contents($filename, "Email: " . $email . PHP_EOL, FILE_APPEND);
+    // Ajout de la raison de contact
+    file_put_contents($filename, "Raison de contact: " . $raisonContact . PHP_EOL, FILE_APPEND);
+    // Ajout du message
+    file_put_contents($filename, "Message: " . $message . PHP_EOL, FILE_APPEND);
 
     ?>
 
